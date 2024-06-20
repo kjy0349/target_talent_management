@@ -1,0 +1,45 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 3MB # 엑셀 pdf는 3MB 이미지는 50KB 추가 필터링
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ssafys102@gmail.com
+    password: wyud uuir mdkz mjmf
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+  data:
+    mongodb:
+      uri: mongodb+srv://S10P31S102:ZuXktOUbyO@ssafy.ngivl.mongodb.net/S10P31S102?authSource=admin
+      password: ZuXktOUbyO
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:./data/test;AUTO_SERVER=TRUE
+    username: sa
+    password:
+    hikari:
+      connection-timeout: 30000
+      maximum-pool-size: 20
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    database: h2
+    properties:
+      hibernate:
+        format_sql: true
+        default_batch_fetch_size: 500
+        use_sql_comments: true
+    hibernate:
+      ddl-auto: create
+    show-sql: true

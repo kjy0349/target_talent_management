@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "year": "2024",
+    "departments": ["VD", "DA"],
+    "techDetail": "On Device AI",
+    "detail": "□ On Device AI 학습 파이프라인 자동화를 위한 플랫폼 기술\n- 개발되는 모델의 데이터 , 코드 , 학습 Deploy pipeline\n자동화를 통한 생산성 향상\n- 데이터 , 모델에 대한 visibility 확보 및 편의성 개선\n- 대용량 모델의 경량화 양자화를 통한 AI 기능 On device 화",
+    "techLevel": "신규",
+    "relativeLevel": "우세",
+    "keyword": ["생성형 AI", "6G"],
+    "registerYear": "2024-04-30"
+  }
+]
